@@ -12,20 +12,24 @@
 clusters:
   default:
     master:
-      token: "OTM4NzgyODYxMTExMjAxODIy.YfvT8w.1mtQisuNMtvDt55ngXY-QA5OCd4"
-      channel_id: "909766887334887424"
+      token: "mfa.-7hTY9pGlcIWkPg0-4rAqzwxPaUw5Ox8-aMml1w6DwG_is8PgzxZPRRSNraE7iGlAG9dFLEtjR8bSmyDezbX" #alpha
+      channel_id: "939468327460409354"
     instances:
-      - token: "ODk4MzE2ODUzNzY2NjcyMzk1.YfwDOg.rJRexSB84Hm3htegNa3dt_ozmpI"
+      - token: "mfa.6UujjLeaBhGGNnIEflXKL6-JxuuOg0eLMjxezxjDFA8JZT0JBh72fkklhTcXIO1gx03mIeO6_aUCCB61-4q9" # maevwat
         channel_id: "909766887334887424"
-      - token: "ODk4MzE2MzE5NzYwNDc0MTcz.YfwCXQ.bUb1b_SgIGSfxGeRAukeTUcFP3M"
+      - token: "OTM4NzgyODYxMTExMjAxODIy.Yf5MLg.0zb-BW02yEogz4LUzVd7OkfV6Ww" # maevdb
         channel_id: "909766887334887424"
-      - token: "OTM4OTE4Nzg4NjY0MDI5MjY2.YfxSjw.5GiRz6T6DfGreRVRYU38Nu73m2k"
-        channel_id: "939130543390470154"
-      - token: "OTM5MTQ0Mjc3Mzk1NjY0OTc2.Yf0kjg.RPSZCdLqw9fE1nSP9TQZ1ZdXM6k"
-        channel_id: "939130543390470154"
-      - token: "mfa.7kR5SWlj0Nn7dpVqSDvL6rCECc7kf1_JRVfG8GTnc7ZZv2dtdkzQR06I5NYaQW_hiOMx8GbqFMRBsQEMhtzN"
-        channel_id: "939130543390470154"
+      - token: "OTM4OTE4Nzg4NjY0MDI5MjY2.Yf5KQg.XuKiMxpHc6EUBGfOPqX7PzpSMaA" # aterbot
+        channel_id: "909766887334887424"
 
+                # team 2
+
+      - token: "ODk4MzE2MzE5NzYwNDc0MTcz.Yf5K3Q.CBoBOt9IAsmi2aSPHirZJiAOP_Y" # maev
+        channel_id: "939130543390470154"
+      - token: "ODk4MzE2ODUzNzY2NjcyMzk1.Yf5LLw.bcqYQFFtGPQ9GlYX7Bgrk0JEyKQ" # maev2
+        channel_id: "939130543390470154"
+      - token: "OTM5MTQ0Mjc3Mzk1NjY0OTc2.Yf5Kcg.CT9B_rX2e9D8k4KVR_VPm_CgbYU" # maev3
+        channel_id: "939130543390470154"
 shifts:
   - state: "active"
     duration:
@@ -56,7 +60,7 @@ features:
     work: true
     trivia: true
     crime : false
-    guess: true
+    guess: false
 
   scratch:
     enable: false
@@ -64,34 +68,88 @@ features:
     priority: false
 
   custom_commands:
-  - value: "pls work mod"
+#  - value: "pls give 100k 🅼🅐🅴🆅🅆🄰🅃#3014"
+#    pause_below_balance: 120000
+  - value: "pls daily"
+  #- value: "pls work mod"
   auto_buy:
     fishing_pole: true
     hunting_rifle: true
     laptop: true
     shovel: true
   auto_sell:
-    enable: true
+    enable: false
     items:
       - "boar"
+      - "worm"
       - "duck"
       - "fish"
       - "deer"
       - "rabbit"
       - "skunk"
+      - "seaweed"
+      - "ladybug"
+      - "junk"
   auto_gift:
     enable: true
     items:
       - "rarefish"
       - "exoticfish"
+      - "candy"
+      - "daily"
+      - "bank"
+      - "pizza"
+      - "boar"
+      - "worm"
+      - "duck"
+      - "fish"
+      - "deer"
+      - "rabbit"
+      - "skunk"
+      - "seaweed"
+      - "ladybug"
+      - "junk"
+      - "adventureticket"
+      - "alcohol"
+      - "ant"
+      - "apple"
+      - "banknote"
+      - "phone"
+      - "coinbomb"
+      - "chillpill"
+      - "cookie"
+      - "fakeid"
+      - "ducttape"
+      - "spinner"
+      - "bread"
+      - "jellyfish"
+      - "landmine"
+      - "horseshoe"
+      - "meme"
+      - "padlock"
+      - "pepecoin"
+      - "wishlist"
+      - "pepe"
+      - "cheese"
+      - "tidepod"
+      - "stickbug"
+      - "bluephallicobject"
+      - "pinkphallicobject"
+      - "orangephallicobject"
+      - "goldenphallicobject"
+      - "purplephallicobject"
+      - "multiphallicobject"
+      - "sand"
+      - "garbage"
+
   auto_share:
-    enable: false
-    maximum_balance: 8000000
-    minimum_balance: 5000000
-  auto_blackjack:
     enable: true
-    amount: 50
-    pause_below_balance: 100
+    maximum_balance: 1000000
+    minimum_balance: 100000
+  auto_blackjack:
+    enable: false
+    amount: 1000
+    pause_below_balance: 70000
     pause_above_balance: 50000000
     logic_table:
       2:
