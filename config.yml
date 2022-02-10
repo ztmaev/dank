@@ -17,18 +17,18 @@ clusters:
     instances:
       - token: "mfa.6UujjLeaBhGGNnIEflXKL6-JxuuOg0eLMjxezxjDFA8JZT0JBh72fkklhTcXIO1gx03mIeO6_aUCCB61-4q9" # maevwat
         channel_id: "909766887334887424"
-      - token: "OTM4NzgyODYxMTExMjAxODIy.Yf5MLg.0zb-BW02yEogz4LUzVd7OkfV6Ww" # maevdb
+      - token: "OTM4NzgyODYxMTExMjAxODIy.YgVvkQ.v3dUNbz5Y_9DlVR432trDvkHPLM" # maevdb
         channel_id: "909766887334887424"
-      - token: "OTM4OTE4Nzg4NjY0MDI5MjY2.Yf5KQg.XuKiMxpHc6EUBGfOPqX7PzpSMaA" # aterbot
+      - token: "OTM4OTE4Nzg4NjY0MDI5MjY2.YgVvDA.KGkp_YxEGYCfJLE0ojUhJwSzamc" # aterbot
         channel_id: "909766887334887424"
 
                 # team 2
 
-      - token: "ODk4MzE2MzE5NzYwNDc0MTcz.Yf5K3Q.CBoBOt9IAsmi2aSPHirZJiAOP_Y" # maev
+      - token: "ODk4MzE2MzE5NzYwNDc0MTcz.YgVv6Q.i7K4_zyfjq5oW-i9Sd1kvizCbvE" # maev
         channel_id: "939130543390470154"
       - token: "ODk4MzE2ODUzNzY2NjcyMzk1.Yf5LLw.bcqYQFFtGPQ9GlYX7Bgrk0JEyKQ" # maev2
         channel_id: "939130543390470154"
-      - token: "OTM5MTQ0Mjc3Mzk1NjY0OTc2.Yf5Kcg.CT9B_rX2e9D8k4KVR_VPm_CgbYU" # maev3
+      - token: "OTM5MTQ0Mjc3Mzk1NjY0OTc2.YgVw4w.sZE58n2Q9fV9r3CeE-6u3TMw2lg" # maev3
         channel_id: "939130543390470154"
 shifts:
   - state: "active"
