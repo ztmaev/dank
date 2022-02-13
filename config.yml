@@ -14,9 +14,6 @@ clusters:
     master:
       token: "mfa.-7hTY9pGlcIWkPg0-4rAqzwxPaUw5Ox8-aMml1w6DwG_is8PgzxZPRRSNraE7iGlAG9dFLEtjR8bSmyDezbX" #alpha
       channel_id: "939468327460409354"
-    instances:
-      - token: "mfa.6UujjLeaBhGGNnIEflXKL6-JxuuOg0eLMjxezxjDFA8JZT0JBh72fkklhTcXIO1gx03mIeO6_aUCCB61-4q9" # maevwat
-        channel_id: "909766887334887424"
 
 shifts:
   - state: "active"
